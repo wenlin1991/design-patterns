@@ -1,0 +1,4 @@
+/* IStrategy.java */
+public interface IStrategy {
+
+}
