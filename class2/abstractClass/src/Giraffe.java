@@ -1,0 +1,33 @@
+public class Giraffe extends Creature {
+
+	private String name;
+	private double weight;
+	
+	@Override
+	public void setName(String newName) {
+		name = newName;
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return name;
+	}
+
+	@Override
+	public void setWeight(double newWeight) {
+		weight = newWeight;
+	}
+
+	@Override
+	public double getWeight() {
+		// TODO Auto-generated method stub
+		return weight;
+	}
+    
+	public static void main(String[] args) {
+		Giraffe frank = new Giraffe();
+		frank.setName("Frank");
+		System.out.println(frank.getName());
+	}
+}
